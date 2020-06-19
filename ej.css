@@ -34,7 +34,9 @@ header {
 
 .header-container .logo {
 	width: 230px;
-	background-color: #F5F5F5;
+	border:solid;
+	border-width: 1px;
+	border-color: lightgrey;
 	display: flex;
 	align-items: center;
 	justify-content: center;
