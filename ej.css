@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header {
+	width: 100%;
+	background-color: white;
+}
+
+
+.header-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-container .right-menu {
+	width: 100%;
+}
+
+.header-container .logo {
+	width: 230px;
+	background-color: #F5F5F5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-container .right-menu .menu-account ul {
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid #D1D3D4;
+}
+
+.header-container .right-menu .menu-account li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 10px;
+	font-size: 12px;
+}
+
+.header-container .right-menu .menu-account li a {
+	color: #1DB779;
+}
+
+.header-container .right-menu .search {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.header-container .right-menu .search .shop {
+	width: 250px;
+	height: 70px;
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+
+.carrito{
+	width: 30px;
+	height: 30px;
+}
+
+nav {
+	height: 65px;
+	background-color: #1DB779;
+}
+
+nav ul {
+	height: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+nav li {
+	width: 260px;
+	margin: 10px;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+
+/* body */
+main {
+	background-color: white;
+	height: auto;
+	margin-bottom: 60px;
+}
+
+.container-banner {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.container-banner .arrow-banner {
+	position: absolute;
+	right: 50px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.arrow-banner1{
+	position: absolute;
+	left: 50px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.title-products {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: "Open Sans";
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 49px;
+  	text-align: center;
+}
+
+
+
+.arrow{
+	position: relative;
+	left: -1150px;
+
+}
+
+.line1,
+.line2{
+	box-sizing: border-box;
+  height: 0,3px;
+  width: 505px;
+  border: 1px solid #9B9B9B;
+  background-color: lightgrey;
+  position: relative;
+  bottom: 50px;
+  
+
+  
+
+
+}
+
+.line{
+	display: flex;
+	justify-content: space-between; 
+	
+}
+
+.descuento1{
+	font-size: 15px;
+	color: white;
+	background-color: #00C4C1;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  
+}
+
+
+.row-products-1,
+.row-products-2 {
+	display: flex;
+
+}
+
+.row-products-1 .brands-1,
+.row-products-2 .brands-2 {
+	width: 150px;
+
+}
+
+.brands-1,
+.brands-2{
+	margin-right: 30px;
+	margin-top: 40px;
+}
+
+.line3{
+	box-sizing: border-box;
+  	height: 2px;
+  	width: 150px;
+  	border: 2px solid #F5F5F5;
+  	position: relative;
+  	top: -15px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+
+
+}
+
+a:hover{
+	color: #00C4C1;
+	text-decoration: none;
+	
+}
+
+
+.row-products-1 .container-products,
+.row-products-2 .container-products {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.row-products-1{
+	margin-top: 30px;
+}
+
+.row-products-2{
+	margin-top: 60px;
+}
+
+/* footer */
+footer {
+	height: 300px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #1E1E1E;
+	font-size: 12px;
+	display: flex;
+	padding: 80px 150px 0 150px;
+}
+
+.footer-left {
+	width: 80%;
+	display: flex;
+}
+
+.footer-left .footer-products,
+.footer-left .footer-account,
+.footer-left .footer-contact {
+	width: 30%;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	text-align: left;
+	
+  
+}
+
+.products,
+.my-account,
+.contact-us{
+	border-bottom: 1px solid white;
+	justify-content: space-between;
+
+}
+
+.products{
+	width: 78px;
+
+}
+
+.my-account{
+	width: 70px;
+}
+
+.contact-us{
+	width: 95px;
+}
+
+.footer-right {
+	width: 20%;
+}
+
+.footer-right .footer-social {
+	display: inline-flex;
+	align-items: center;
+}
+
+.footer-right .footer-social li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+.footer-right .footer-social li img {
+	height: auto;
+	width: 30px;
+}
